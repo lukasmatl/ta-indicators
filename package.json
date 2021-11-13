@@ -4,7 +4,7 @@
   "description": "opensource ta indicators",
   "main": "./lib/index.js",
   "scripts": {
-    "tslint:test": "tslint --test",
+    "jest": "jest",
     "build": "tsc"
   },
   "author": "Lukas Matl",
@@ -20,6 +20,6 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
-    "ramda-decimal.js": "^1.0.5"
+    "ramda-decimal.js": "^1.0.7"
   }
 }
